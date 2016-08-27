@@ -31,7 +31,7 @@ def stable_marriage(blue_dict, red_dict):
             free_blue_list.remove(proposer)
             pairing_list[proposee] = proposer
             
-            print(proposer +' proposes and marries '+ proposee)
+            print(proposer +' proposes and marries '+ proposee + '.')
         
         elif proposee_pref(current_suitor) > proposee_pref(proposer):
         
@@ -40,12 +40,12 @@ def stable_marriage(blue_dict, red_dict):
             blue_dict[current_suitor].remove(proposee)
             pairing_list[proposee] = proposer
             
-            print(proposer + ' intercepts ' + current_suitor + ' and marries ' + proposee)
+            print(proposer + ' intercepts ' + current_suitor + ' and marries ' + proposee + '.')
         
         else:
             
             blue_dict[proposer].remove(proposee)
-            print(proposer + ' proposes and is rejected by ' + proposee)
+            print(proposer + ' proposes and is rejected by ' + proposee + '.')
        
     print(pairing_list)
     return pairing_list
