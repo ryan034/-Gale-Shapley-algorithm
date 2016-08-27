@@ -18,14 +18,14 @@ stable_marriage(men, women)
 ```
 Output:
 ``` 
-dan proposes and marries abi
-bob proposes and marries cath
-abe intercepts dan and marries abi
-col intercepts abe and marries abi
-dan proposes and marries bea
-abe intercepts dan and marries bea
-dan proposes and is rejected by cath
-dan proposes and marries dee
+dan proposes and marries abi.
+bob proposes and marries cath.
+abe intercepts dan and marries abi.
+col intercepts abe and marries abi.
+dan proposes and marries bea.
+abe intercepts dan and marries bea.
+dan proposes and is rejected by cath.
+dan proposes and marries dee.
 {'cath': 'bob', 'dee': 'dan', 'abi': 'col', 'bea': 'abe'}
 ```
 
