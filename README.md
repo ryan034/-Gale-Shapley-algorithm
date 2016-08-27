@@ -1,6 +1,6 @@
 Implementation of the Gale Shapley algorithm with O(n^2) complexity. <https://en.wikipedia.org/wiki/Stable_marriage_problem>
 
-Input is two dictionaries of the proposers and proposees respectively. Each key correspond to a list of preferred partners in descending order. The routine prints a line when a proposal is accepted or rejected and whenever a less preferred marriage is broken in place of a more preferred one. The final output is a dictionary of a stable matching between the key, value pairs.   
+Input is two dictionaries of the proposers and proposees respectively. Each key correspond to a list of preferred partners in descending order. The routine prints a line when a proposal is accepted or rejected and whenever a less preferred marriage is broken in place of a more preferred one. The final output is a dictionary of a stable matching between the key, value pairs. Note the algorithm is proposer optimal and may be proposee pessimal.   
 
 eg.
 ```
